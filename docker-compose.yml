@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    image: shariaa/linear-regression-api:latest
+    container_name: linear-regression-api
+    ports:
+      - "5000:5000"
